@@ -10,10 +10,10 @@ import {
   ResponsiveContainer,
 } from "recharts";
 import { Button, InputNumber, Select, theme } from "antd";
-import squareWave from "../../../Waves/squareWave";
-import sineWave from "../../../Waves/sineWave";
-import triangleWave from "../../../Waves/triangleWave";
-import sawtoothWave from "../../../Waves/sawtoothWave";
+import squareWave from "../../../waves/squareWave";
+import sineWave from "../../../waves/sineWave";
+import triangleWave from "../../../waves/triangleWave";
+import sawtoothWave from "../../../waves/sawtoothWave";
 import actions from "../../../config/actions/actions";
 import { useDispatch, useSelector } from "react-redux";
 import {
